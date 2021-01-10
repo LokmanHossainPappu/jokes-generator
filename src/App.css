@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.boxs {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+.box{
+  background: tomato;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  width: 700px;
+}
+.box h1{
+  color: black;
+}
+.box button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: purple;
+  border: 0;
+  cursor: pointer;
+  transition:transform 0.2s case-in;
+  color: white;
+}
+.box button:active{
+  outline: none;
+  transform: scale(0.98);
+}
+.box button:focus{
+  outline: none;
 }
